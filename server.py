@@ -1,11 +1,13 @@
 from flask import Flask
 from flask.globals import request
+from flask_cors.extension import CORS
 # import base64
 # import datetime
 import re
 import pyphen
 
 app = Flask(__name__)
+cors = CORS(app)
 
 def removeFalseOcurrences(s, alter):
     """
