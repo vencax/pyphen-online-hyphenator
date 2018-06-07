@@ -14,3 +14,9 @@ Example - for czech lang:
 ```
 localhost:5000/?lang=cs&alter=%26phy%3B&content=Společnost%20E.ON%20dělá%20kampaň
 ```
+
+Running heroku instance is on:
+
+```
+https://pyphen-online-hyphenator.herokuapp.com/?lang=cs&alter=%26phy%3B&content=Společnost%20E.ON%20dělá%20kampaň
+```
