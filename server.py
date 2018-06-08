@@ -13,7 +13,7 @@ def removeFalseOcurrences(s, alter):
     """
     Remove all occurences of hyphen sign surrounded by a space-like char.
     """
-    return re.sub('\s+(%s)|(%s)\s+' % (alter, alter), ' ', s)
+    return re.sub('(%s)\s(%s)|\s+(%s)|(%s)\s+' % (alter, alter, alter, alter), ' ', s)
 
 
 @app.route('/', methods=['GET'])
